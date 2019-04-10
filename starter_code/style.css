@@ -5,7 +5,7 @@ body {
 
 .game-intro {
   float: left;
-  padding: 0% 10%;
+  padding: 0% 0%;
 }
 
 .game-intro p {
@@ -33,6 +33,12 @@ body button {
 }
 
 #game-board {
-    float: left;
-    padding: 20px 0px;
+    float: center;
+    padding: 0px 0px;
+}
+
+
+canvas{
+  display: inline-block;
+  margin: 0;
 }
